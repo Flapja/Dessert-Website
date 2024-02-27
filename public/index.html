@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,800;1,800&family=Wix+Madefor+Text:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body class="font-playfair">
+    <!--Header-->
+    <section
+      class="h-screen relative bg-gradient-to-b from-banner-start to-banner-end flex flex-col items-start justify-center"
+    >
+      <video
+        src="videos/banner.mp4"
+        autoplay
+        loop
+        muted
+        class="object-cover absolute top-0 left-0 w-full h-full mix-blend-overlay"
+      ></video>
+      <!--Navbar-->
+      <div
+        class="lg:w-1200px mx-auto relative flex flex-col lg:flex-row items-center justify-between lg:pt-6 space-y-4 lg:space-y-0"
+      >
+        <a
+          href="#"
+          class="lg:text-6xl md:pl-0 text-4xl font-bold italic text-main-red"
+          >The Desserts</a
+        >
+
+        <nav class="flex justify-between font-bold text-black">
+          <div
+            class="flex items-center text-lg lg:text-lg space-x-4 lg:space-x-6"
+          >
+            <a class="link" href="#">Home</a>
+            <a class="link" href="#">About</a>
+            <a class="link" href="#">Wedding Cakes</a>
+            <a class="link" href="#">Shop</a>
+            <a class="link" href="#">Contact</a>
+          </div>
+        </nav>
+      </div>
+      <!--Content-->
+      <div
+        class="lg:w-1200px lg:mx-auto h-full text-black relative flex items-center lg:text-left text-center"
+      >
+        <div class="lg:pr-130 space-y-8 lg:w-1/2 lg:mx-0 w-5/6 mx-auto">
+          <h1 class="lg:text-7xl text-5xl font-bold tracking-wider">
+            New York's
+            <span class="text-main-red italic">best</span> cake restaurant
+          </h1>
+          <p class="tracking-wide font-wix lg:text-lg text-sm">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non dolore
+            autem laborum a est ab suscipit consequuntur sint deleniti aperiam?
+          </p>
+          <!--Buttons-->
+          <div
+            class="space-x-8 flex items-center lg:justify-start justify-center relative mt-16 text-white"
+          >
+            <button type="button" class="buttons">
+              <a href="">Order/Shop Now</a>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Features-->
+    <section class="py-20 relative bg-main-white">
+      <div
+        class="lg:w-1400px lg:mx-auto h-full text-black relative flex items-center lg:text-left text-center"
+      >
+        <div
+          class="flex lg:flex-row flex-col justify-around items-center w-full"
+        >
+          <div class="card">
+            <h1 class="lg:text-5xl text-4xl font-bold">Shop Online</h1>
+            <p class="font-wix opacity-60 mt-5">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Consequatur, deserunt.
+            </p>
+            <button type="button" class="card-button">
+              <a href="">Shop Now</a>
+            </button>
+          </div>
+          <div class="card">
+            <h1 class="lg:text-5xl text-4xl font-bold">Clean Environment</h1>
+            <p class="font-wix opacity-60 mt-5">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Consequatur, deserunt.
+            </p>
+            <button type="button" class="card-button">
+              <a href="">Shop Now</a>
+            </button>
+          </div>
+          <div class="card">
+            <h1 class="lg:text-5xl text-4xl font-bold">Trust and Safety</h1>
+            <p class="font-wix opacity-60 mt-5">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Consequatur, deserunt.
+            </p>
+            <button type="button" class="card-button">
+              <a href="">Shop Now</a>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Options-->
+    <section class="py-20 relative bg-white">
+      <div class="lg:w-1400px mx-auto text-black relative">
+        <div
+          class="flex relative items-center lg:justify-around justify-center flex-wrap w-full"
+        >
+          <div class="option group">
+            <img
+              src="images/cake-1.jpg"
+              alt=""
+              class="object-cover absolute top-0 left-0 w-full h-full"
+            />
+            <div
+              class="text-center bg-transparent w-full h-full absolute top-0 left-0 space-y-4 cursor-pointer hover:bg-second-black duration-300 group"
+            >
+              <div
+                class="font-bold font-wix w-full bottom-1/4 left-1/2 -translate-x-1/2 absolute text-main-white space-y-4 group-hover:scale-105 duration-300"
+              >
+                <p class="text-3xl">View Shops</p>
+                <a href="#" class="text-5xl">Classic Cakes & Slices</a>
+              </div>
+            </div>
+          </div>
+          <div class="option group">
+            <img
+              src="images/cake-2.jpg"
+              alt=""
+              class="object-cover absolute top-0 left-0 w-full h-full"
+            />
+            <div
+              class="text-center bg-transparent w-full h-full absolute top-0 left-0 space-y-4 cursor-pointer hover:bg-second-black duration-300 group"
+            >
+              <div
+                class="font-bold font-wix w-full bottom-1/4 left-1/2 -translate-x-1/2 absolute text-main-white space-y-4 group-hover:scale-105 duration-300"
+              >
+                <p class="text-3xl">View Shops</p>
+                <a href="#" class="text-5xl">Cake Recipes</a>
+              </div>
+            </div>
+          </div>
+          <div class="option group">
+            <img
+              src="images/cake-3.jpg"
+              alt=""
+              class="object-cover absolute top-0 left-0 w-full h-full"
+            />
+            <div
+              class="text-center bg-transparent w-full h-full absolute top-0 left-0 space-y-4 cursor-pointer hover:bg-second-black duration-300 group"
+            >
+              <div
+                class="font-bold font-wix w-full bottom-1/4 left-1/2 -translate-x-1/2 absolute text-main-white space-y-4 group-hover:scale-105 duration-300"
+              >
+                <p class="text-3xl">View Shops</p>
+                <a href="#" class="text-5xl">Choclate Cakes</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Cakes-->
+    <section class="py-20 relative bg-main-white">
+      <div
+        class="lg:w-1400px lg:mx-auto h-full text-black relative flex flex-col justify-center space-y-10"
+      >
+        <div class="space-y-4 lg:text-left text-center">
+          <h1 class="lg:text-5xl text-4xl font-bold">
+            Best Selling <span class="text-main-red">Cakes</span>
+          </h1>
+          <p class="font-wix opacity-70">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate,
+            quo!
+          </p>
+        </div>
+
+        <div class="flex items-center justify-around flex-wrap w-full h-full">
+          <div class="lg:basis-1/30 basis-5/6 lg:mt-0 mt-5 relative h-452px">
+            <img
+              src="images/product-1.jpg"
+              alt=""
+              class="object-cover absolute top-0 left-0 w-full h-full"
+            />
+            <div
+              class="text-center bg-transparent w-full h-full absolute top-0 left-0 duration-300 hover:bg-second-black group cursor-pointer"
+            >
+              <a
+                href="#"
+                class="w-full font-bold text-white bottom-0 left-1/2 -translate-x-1/2 absolute opacity-0 duration-300 group-hover:bottom-1/2 group-hover:opacity-100 text-3xl font-wix"
+                >Black Forest Cake</a
+              >
+            </div>
+          </div>
+          <div class="lg:basis-1/30 basis-5/6 lg:mt-0 mt-5 relative h-452px">
+            <img
+              src="images/product-2.jpg"
+              alt=""
+              class="object-cover absolute top-0 left-0 w-full h-full"
+            />
+            <div
+              class="text-center bg-transparent w-full h-full absolute top-0 left-0 duration-300 hover:bg-second-black group cursor-pointer"
+            >
+              <a
+                href="#"
+                class="w-full font-bold text-white bottom-0 left-1/2 -translate-x-1/2 absolute opacity-0 duration-300 group-hover:bottom-1/2 group-hover:opacity-100 text-3xl font-wix"
+                >Marzipon Cake</a
+              >
+            </div>
+          </div>
+          <div class="lg:basis-1/30 basis-5/6 lg:mt-0 mt-5 relative h-452px">
+            <img
+              src="images/product-3.jpg"
+              alt=""
+              class="object-cover absolute top-0 left-0 w-full h-full"
+            />
+            <div
+              class="text-center bg-transparent w-full h-full absolute top-0 left-0 duration-300 hover:bg-second-black group cursor-pointer"
+            >
+              <a
+                href="#"
+                class="w-full font-bold text-white bottom-0 left-1/2 -translate-x-1/2 absolute opacity-0 duration-300 group-hover:bottom-1/2 group-hover:opacity-100 text-3xl font-wix"
+                >Strawberry Cream Cake</a
+              >
+            </div>
+          </div>
+          <button type="button" class="buttons mt-10">
+            <a href="">View More</a>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!--Banner-->
+    <section class="relative">
+      <div
+        class="w-full relative lg:h-534 h-452px bg-gradient-to-r from-banner-start to-banner-end"
+      >
+        <img
+          src="images/banner-2.jpg"
+          alt="banner2"
+          class="object-cover object-top absolute top-0 left-0 w-full h-full mix-blend-overlay"
+        />
+        <div
+          class="lg:w-1200px lg:mx-auto relative text-white h-full flex items-center"
+        >
+          <div class="lg:w-1/2 w-5/6 mx-auto lg:mx-0 text-black">
+            <p class="font-wix opacity-70">Shop Now</p>
+            <h1
+              class="lg:text-5xl text-3xl font-bold tracking-wide leading-snug"
+            >
+              Meet with Extraordinary Taste of
+              <span class="italic text-main-red">The Job</span>
+            </h1>
+            <p class="font-wix opacity-70 mt-2 lg:text-lg text-sm">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Quisquam, magnam.
+            </p>
+            <button type="button" class="buttons mt-5">
+              <a href="">Shop Now!</a>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Footer-->
+    <section
+      class="bg-main-red py-14 text-white font-wix border-t-4 border-solid border-white"
+    >
+      <div class="lg:w-1400px w-5/6 relative mx-auto overflow-hidden">
+        <div
+          class="flex lg:flex-row lg:space-y-0 space-y-10 flex-col lg:items-center items-baseline"
+        >
+          <div class="basis-1/4 space-y-4 lg:text-center text-left">
+            <p class="font-semibold">Social Medias</p>
+            <div class="w-full space-x-4 flex justify-center">
+              <a href="#" class="text-xl hover:opacity-50 duration-500"
+                ><i class="fa-brands fa-youtube"></i
+              ></a>
+              <a href="#" class="text-xl hover:opacity-50 duration-500"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a href="#" class="text-xl hover:opacity-50 duration-500"
+                ><i class="fa-brands fa-facebook"></i
+              ></a>
+            </div>
+          </div>
+          <ul class="basis-1/4 space-y-2 lg:text-center text-left">
+            <li>
+              <a
+                href="#"
+                class="font-semibold tracking-wide opacity-100 hover:opacity-50 duration-500"
+                >About</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="font-semibold tracking-wide opacity-100 hover:opacity-50 duration-500"
+                >Jobs</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="font-semibold tracking-wide opacity-100 hover:opacity-50 duration-500"
+                >Docs</a
+              >
+            </li>
+          </ul>
+          <ul class="basis-1/4 space-y-2 lg:text-center text-left">
+            <li>
+              <a
+                href="#"
+                class="font-semibold tracking-wide opacity-100 hover:opacity-50 duration-500"
+                >Terms and Experience</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="font-semibold tracking-wide opacity-100 hover:opacity-50 duration-500"
+                >Cookie Policy</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="font-semibold tracking-wide opacity-100 hover:opacity-50 duration-500"
+                >Privacy Policy</a
+              >
+            </li>
+          </ul>
+          <ul class="basis-1/4 space-y-2 lg:text-center text-left">
+            <li>
+              <a
+                href="#"
+                class="font-semibold tracking-wide opacity-100 hover:opacity-50 duration-500"
+                >Contact Us</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="font-semibold tracking-wide opacity-100 hover:opacity-50 duration-500"
+                >Sign Up for Emails</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="font-semibold tracking-wide opacity-100 hover:opacity-50 duration-500"
+                >Media Room</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="font-semibold tracking-wide opacity-100 hover:opacity-50 duration-500"
+                >Get Social</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.link {
+  @apply hover:text-main-black duration-300 tracking-wide font-wix lg:text-lg text-sm;
+}
+
+.buttons {
+  @apply py-3 px-5 bg-main-red rounded-md hover:bg-transparent duration-500 cursor-pointer border-solid border-main-red border-2 hover:text-main-red font-bold text-sm lg:text-lg tracking-wider font-wix text-white;
+}
+
+.card-button {
+  @apply py-2 px-4 bg-main-red rounded-md hover:bg-transparent duration-500 cursor-pointer border-solid border-main-red border-2 hover:text-main-red font-bold text-sm tracking-wider font-wix text-main-white mt-6;
+}
+
+.card {
+  @apply flex flex-col justify-center items-center text-center relative duration-300 basis-1/100 lg:mt-0 mt-10;
+}
+
+.option {
+  @apply lg:basis-1/30 basis-5/6 lg:mt-0 mt-5  relative h-534;
+}
+
+.dragging {
+  @apply cursor-grab scroll-auto;
+}
